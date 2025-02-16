@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Section */
+header {
+    background: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation Bar */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    background: #ff6600;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background: #cc5500;
+}
+
+/* Sections */
+section {
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 80%;
+    text-align: left; /* Left-align text */
+}
+
+/* Profile Image */
+.profile-pic {
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    float: left; /* Move image to the left */
+    margin-right: 20px;
+}
+
+/* Headings */
+h2 {
+    color: #007BFF;
+}
+
+/* Services List */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
